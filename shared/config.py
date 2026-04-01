@@ -1,0 +1,8 @@
+HOST = 'localhost'
+SERVER_PORT = 9999
+WORKER_BASE_PORT = 10000  # workers use 10000, 10001, 10002...
+BUFFER_SIZE = 4096
+MAX_CLIENTS = 10
+NUM_WORKERS = 3
+UPLOAD_DIR = "uploads"
+OUTPUT_DIR = "outputs"

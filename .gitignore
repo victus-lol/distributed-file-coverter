@@ -1,0 +1,16 @@
+cat > .gitignore << EOF
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+uploads/
+outputs/
+worker_temp/
+analysis_outputs/
+test_files/
+*.png
+*.jpg
+*.gif
+*.mp4
+*.pdf
+EOF
